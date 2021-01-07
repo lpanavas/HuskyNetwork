@@ -183,8 +183,8 @@ const createElements = (data) => {
   svg = d3
     .select("#huskyNetwork")
     .append("svg")
-    .attr("height", width)
-    .attr("width", height);
+    .attr("height", height)
+    .attr("width", width);
 
   // .attr("style", "border: solid 1px black");
   maxWidth = d3.max(data.links, (d) => d.value);
