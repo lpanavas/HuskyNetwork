@@ -176,7 +176,7 @@ const finalArray = (arr, data) => {
 const createElements = (data) => {
   console.log(data);
   var width = 750;
-  var height = 750;
+  var height = 500;
   var margin = 50;
   var radius = 30;
 
@@ -299,7 +299,7 @@ const createElements = (data) => {
 };
 
 const createNetwork = (link, node, data) => {
-  let height = 750;
+  let height = 500;
   let width = 750;
 
   simulation = d3
