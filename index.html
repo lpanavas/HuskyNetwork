@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./network.css" />
+  </head>
+  <body>
+    <div id="title">
+      <h1>The Stars of the Husky Vis Pack</h1>
+    </div>
+    <div id="description">
+      Data shows the collaborations occuring at the Northeastern Visualization
+      Lab. Nodes represent members who have worked with at least one other
+      member who is a first author. Links represent papers where either of the
+      members was a first author on a paper published while they were a member
+      of the Northeastern Vis Lab. Click the nodes to go to the members pages or
+      follow the links to find the research put out by the collaborators.
+    </div>
+
+    <div id="tooltip"></div>
+    <div id="peopleNames"></div>
+    <div id="huskyNetwork">
+      <image
+        id="backgroundSnow"
+        src="https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Winter-PNG/Snowy_Ground_with_Trees_PNG_Clipart_Image.png?m=1442285702"
+      ></image>
+      <image id="huskyHowl" src="./images/huskybar.png"></image>
+      <image id="huskyHowlRight" src="./images/huskyBarFlipped.png"></image>
+    </div>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="./networkScript.js"></script>
+  </body>
+</html>
